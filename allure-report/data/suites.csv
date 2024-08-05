@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 05 15:17:02 AEST 2024","Mon Aug 05 15:17:08 AEST 2024","6082","chromium","accounts_orders.spec.ts","Account 1","","","downloads",""
+"passed","Mon Aug 05 15:17:02 AEST 2024","Mon Aug 05 15:17:09 AEST 2024","6232","chromium","accounts_orders.spec.ts","Account 1","","","orders",""
+"passed","Mon Aug 05 15:17:02 AEST 2024","Mon Aug 05 15:17:07 AEST 2024","4835","chromium","accounts_orders.spec.ts","Account 1 > Account page","","","register",""
