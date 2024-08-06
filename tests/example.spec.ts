@@ -9,7 +9,7 @@ test.skip('has title', async ({ page }) => {
 
 
 
-test.skip('get started link', async ({ page }) => {
+test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
