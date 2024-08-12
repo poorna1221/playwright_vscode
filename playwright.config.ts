@@ -22,7 +22,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [['allure-playwright']], //  reporter: [['html'],['json'],['allure-playwright']],
-  globalSetup: require.resolve('./tests/util/global-setup'),
+  //globalSetup: require.resolve('./tests/util/global-setup'), //uncomment thsi to use global setup or login once and use across multiple tests
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -30,7 +30,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
-    storageState:'loggedInState.json'
+   // storageState:'loggedInState.json' //uncomment thsi to use global setup or login once and use across multiple tests
   },
 
   /* Configure projects for major browsers */
